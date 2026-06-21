@@ -74,13 +74,13 @@ Steps:
 
 ## Project Structure
 MMU-Design-Verilog-HDL/<br>
-├── rtl/<br>
-├── tb/<br>
-├── simulation/<br>
-├── waveforms/<br>
-├── images/<br>
-├── docs/<br>
-└── README.md<br>
+├──rtl/<br>
+├──tb/<br>
+├──simulation/<br>
+├──waveforms/<br>
+├──images/<br>
+├──docs/<br>
+└──README.md<br>
 
 ---
 
