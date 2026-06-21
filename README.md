@@ -19,15 +19,15 @@ This project implements a simplified Memory Management Unit (MMU) in Verilog HDL
 
 ## Architecture
 
-Virtual Address → Page Number + Offset  
-↓  
-Page Table Lookup  
-↓  
-Valid Check  
-↓  
-Permission Check  
-↓  
-Physical Address / Fault Generation  
+Virtual Address → Page Number + Offset <br> 
+↓ <br>
+Page Table Lookup <br>  
+↓  <br>
+Valid Check<br>  
+↓ <br> 
+Permission Check<br>  
+↓  <br>
+Physical Address / Fault Generation<br>  
 
 ---
 
@@ -73,14 +73,14 @@ Steps:
 ---
 
 ## Project Structure
-MMU-Design-Verilog-HDL/
-├── rtl/
-├── tb/
-├── simulation/
-├── waveforms/
-├── images/
-├── docs/
-└── README.md
+MMU-Design-Verilog-HDL/<br>
+├── rtl/<br>
+├── tb/<br>
+├── simulation/<br>
+├── waveforms/<br>
+├── images/<br>
+├── docs/<br>
+└── README.md<br>
 
 ---
 
