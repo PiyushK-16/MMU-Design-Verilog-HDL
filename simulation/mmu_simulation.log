@@ -1,0 +1,19 @@
+[2026-06-22 02:27:22 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module mmu declared here: design.sv:3
+design.sv:57: warning: @* is sensitive to all 256 words in array 'valid_bit'.
+design.sv:62: warning: @* is sensitive to all 256 words in array 'write_perm'.
+design.sv:67: warning: @* is sensitive to all 256 words in array 'frame_num'.
+VCD info: dumpfile dump.vcd opened for output.
+T=0 VA=0123 PA=1023 PF=0 PROT=0 VALID=1
+T=20000 VA=0134 PA=1034 PF=0 PROT=0 VALID=1
+T=40000 VA=02aa PA=20aa PF=0 PROT=0 VALID=1
+T=60000 VA=02aa PA=0000 PF=0 PROT=1 VALID=0
+T=80000 VA=05aa PA=0000 PF=1 PROT=0 VALID=0
+testbench.sv:58: $finish called at 100000 (1ps)
+Finding VCD file...
+./dump.vcd
+[2026-06-22 02:27:23 UTC] Opening EPWave...
+Done
